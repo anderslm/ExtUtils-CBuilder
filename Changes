@@ -1,0 +1,6 @@
+Revision history for Perl extension ExtUtils::CBuilder.
+
+0.00_01  Mon Dec  1 19:46:00 CST 2003
+
+ - original version, only works on Unix probably.
+
