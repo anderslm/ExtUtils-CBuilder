@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.38.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 5e0e053f22d28307dfbe8a35d9781cf4d0fef57d Build.PL
+SHA1 ea261314b02dfcec4a99bcbc024fc4541b386dee Changes
+SHA1 c97a41c305bae68328a71523bedd89351335a9a4 INSTALL
+SHA1 60d090090842e8a7a4a8935f1431ecce07c29c15 MANIFEST
+SHA1 67d806739b2632f891b6132c170ca8da8c4df051 META.yml
+SHA1 c5bbe42245223edc96e10e4889fe2c6e1078c31b Makefile.PL
+SHA1 93eee24d38610d50a7905b8d3eed158cc4e5c8bb lib/ExtUtils/CBuilder.pm
+SHA1 a5f82bc68da16f125c9a59f57106127c0692ef56 lib/ExtUtils/CBuilder/Base.pm
+SHA1 1ead849990e1d6e05a4a66867d27c80341397da8 lib/ExtUtils/CBuilder/Platform/Unix.pm
+SHA1 c1851e3a20085eb2d7308c7bfb435e23253a35fb lib/ExtUtils/CBuilder/Platform/VMS.pm
+SHA1 0d6e09433de07c7a364ac7f65df82d0ee0ae7795 lib/ExtUtils/CBuilder/Platform/Windows.pm
+SHA1 b9fc2a2d68f672a8b234d5d5ab8002c8c3edc07d lib/ExtUtils/CBuilder/Platform/aix.pm
+SHA1 e7ad13cf31166ca776a4ae30c7025a7db4d5e32d lib/ExtUtils/CBuilder/Platform/cygwin.pm
+SHA1 29b3bfdf614fa916f36684c8936d4e94d38822df lib/ExtUtils/CBuilder/Platform/darwin.pm
+SHA1 d8160defa94e78eb270d4ec622cfbd1e6535edbf lib/ExtUtils/CBuilder/Platform/os2.pm
+SHA1 c1ff0d28751d1d5d9b45ba25bb16fcb29f4bce1f t/01-basic.t
+SHA1 8697aa590938a169d0c194e435b688ee441faa62 t/02-link.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.2 (Darwin)
+
+iD8DBQFB5fCBgrvMBLfvlHYRAtNHAJ0XhNluLsiZsgUFP014Mai1CtpLoACgphq0
+ZINozXGOp2hyNn6FZBL/AOk=
+=uzBs
+-----END PGP SIGNATURE-----
