@@ -130,7 +130,8 @@ sub link {
   $objects = [$objects] unless ref $objects;
   $args{lib_file} ||= $self->lib_file($objects->[0]);
   
-  my @temp_files = 
+  my @temp_files;
+  @temp_files =
     $self->prelink(%args,
 		   dl_name => $args{module_name}) if $self->need_prelink;
   
@@ -153,8 +154,10 @@ sub do_system {
 sub split_like_shell {
   my ($self, $string) = @_;
   
-  return () unless defined($string) && length($string);
+  return () unless defined($string);
   return @$string if UNIVERSAL::isa($string, 'ARRAY');
+  $string =~ s/^\s+|\s+$//g;
+  return () unless length($string);
   
   return Text::ParseWords::shellwords($string);
 }
