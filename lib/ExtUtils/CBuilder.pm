@@ -5,7 +5,7 @@ use File::Path ();
 use File::Basename ();
 
 use vars qw($VERSION @ISA);
-$VERSION = '0.10';
+$VERSION = '0.11';
 
 # Okay, this is the brute-force method of finding out what kind of
 # platform we're on.  I don't know of a systematic way.  These values
@@ -287,6 +287,13 @@ other platform-specific issues.
 =head1 AUTHOR
 
 Ken Williams, kwilliams@cpan.org
+
+=head1 COPYRIGHT
+
+Copyright (c) 2003-2005 Ken Williams.  All rights reserved.
+
+This library is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
