@@ -3,8 +3,17 @@ package ExtUtils::CBuilder::Platform::Unix;
 use strict;
 use ExtUtils::CBuilder::Base;
 
-use vars qw(@ISA);
+use vars qw($VERSION @ISA);
+$VERSION = '0.12';
 @ISA = qw(ExtUtils::CBuilder::Base);
+
+sub link_executable {
+  my $self = shift;
+  # $Config{cc} is usually a better bet for linking executables than $Config{ld}
+  local $self->{config}{ld} =
+    $self->{config}{cc} . " " . $self->{config}{ldflags};
+  return $self->SUPER::link_executable(@_);
+}
 
 sub link {
   my $self = shift;

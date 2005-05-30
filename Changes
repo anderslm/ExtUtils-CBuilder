@@ -1,5 +1,28 @@
 Revision history for Perl extension ExtUtils::CBuilder.
 
+0.12  Mon May 30 16:40:10 CDT 2005
+
+ - In order to integrate into the perl core, patches were contributed
+   that a) put a $VERSION variable in each .pm file, b) add a 'quiet'
+   parameter to new() to shut up some of the command-echoing, c)
+   checks for the perl source headers in the CORE/ directory in the
+   perl source tree, not in the post-installation location, and d)
+   adjusts the CWD when running the regression tests under the perl
+   core. [Yitzchak Scott-Thoennes]
+
+ - Various parts of the code were looking for the CORE/ directory in
+   $Config{archlib}, $Config{installarchlib}, and $Config{archlibexp}.
+   Only the latter is correct, so we use that everywhere now. 
+   [Curt Tilmes]
+
+ - For Unix-ish platforms, link_executable() will now prefer
+   $Config{cc} to $Config{ld}, because that typically works
+   better. [Jarkko Hietaniemi and H.Merijn Brand]
+
+ - Prelinking (invoking ExtUtils::Mksymlists to create options-files)
+   is now only done when we're building dynamic libraries. [Yitzchak
+   Scott-Thoennes]
+
 0.11  Tue Apr  5 20:58:41 CDT 2005
 
  - Added a licensing statement to CBuilder.pm. [Spotted by Chip
