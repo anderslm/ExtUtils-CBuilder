@@ -15,26 +15,26 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 5e0e053f22d28307dfbe8a35d9781cf4d0fef57d Build.PL
-SHA1 3ef1770e025701b365af09f65bae5532b67bc551 Changes
+SHA1 257c62666fadbbc171472736e28a6fdb3bebe210 Changes
 SHA1 c97a41c305bae68328a71523bedd89351335a9a4 INSTALL
 SHA1 60d090090842e8a7a4a8935f1431ecce07c29c15 MANIFEST
-SHA1 87c003895a980c0e23f0016f3065acc49c009675 META.yml
-SHA1 2d5e07d7f2ddb6934b6f875c1e1c3bc7b1bc6f8f Makefile.PL
-SHA1 150b955e489fbd53e9798370714abd15edcc649d lib/ExtUtils/CBuilder.pm
-SHA1 2048a36149e986b8ce27289c17ba807c90880ac9 lib/ExtUtils/CBuilder/Base.pm
+SHA1 764d9be33400c316e80a67ea67a55e09e58f3dad META.yml
+SHA1 c5bbe42245223edc96e10e4889fe2c6e1078c31b Makefile.PL
+SHA1 63f0db0386b6772af24566c910b54970633db051 lib/ExtUtils/CBuilder.pm
+SHA1 4278edacc89cbf930eca88f69fdb5760e3a30d22 lib/ExtUtils/CBuilder/Base.pm
 SHA1 e161a38c83a69a5dc016a57f9f3ecb436118dd67 lib/ExtUtils/CBuilder/Platform/Unix.pm
 SHA1 11f2058d8865a21ad016c6dd84f00be29ed5c9bc lib/ExtUtils/CBuilder/Platform/VMS.pm
-SHA1 a49a9b0876dc79b57979255a7dd46b07db543cbd lib/ExtUtils/CBuilder/Platform/Windows.pm
+SHA1 31cf6051074e531a5f67c9e2fa8f23c73bab43cb lib/ExtUtils/CBuilder/Platform/Windows.pm
 SHA1 c5099c68d2f590174cefe8e4360814653b8b1cfd lib/ExtUtils/CBuilder/Platform/aix.pm
 SHA1 cb297afe65164898ecb54aaa849b84fe60213a29 lib/ExtUtils/CBuilder/Platform/cygwin.pm
 SHA1 4af5e596dbdcd362737117ee5b70d1b956e437c1 lib/ExtUtils/CBuilder/Platform/darwin.pm
 SHA1 e7e7bb59e831f6b49fef5142f5a61f9dde241c99 lib/ExtUtils/CBuilder/Platform/os2.pm
-SHA1 12784d4d675ba0c30b2285acb9c822fc1db90ed5 t/01-basic.t
-SHA1 af0a72c960fd7cf4bff87f77b9def12335dcbb95 t/02-link.t
+SHA1 ac36c9675c277fc08821e2bc3da306f3fadf1675 t/01-basic.t
+SHA1 5c8d4f949987d65266e95af8119fbfa8251a5252 t/02-link.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.2.4 (Darwin)
 
-iD8DBQFCm4j9grvMBLfvlHYRAsbJAJ9Pg8ZDBJTh0l1G03QkQuC76SXqgACgi1eJ
-a88eaJsWQMFPkE7VR0W6tyM=
-=L/0o
+iD8DBQFDDRqrgrvMBLfvlHYRApNpAKCeA7IUmJ8WlpR5ymbUecVPeWttfwCg0qWK
+7EHo9sfbiqJl/ta4JBtHrDg=
+=e5/I
 -----END PGP SIGNATURE-----
