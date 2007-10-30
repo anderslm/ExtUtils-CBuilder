@@ -8,11 +8,13 @@ my $build = Module::Build->new
 		'File::Basename' => 0,
 		'File::Spec' => 0,
 		'Text::ParseWords' => 0,
+		'Cwd' => 0,
 	       },
    build_requires => {
 		      'Test' => 0,
 		     },
    create_makefile_pl => 'traditional',
+   create_readme => 1,
    meta_merge => {
 		  resources => {repository => 'http://svn.perl.org/modules/ExtUtils-CBuilder'},
 		 },

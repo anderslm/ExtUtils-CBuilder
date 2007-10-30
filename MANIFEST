@@ -17,4 +17,5 @@ MANIFEST			This list of files
 META.yml
 t/01-basic.t
 t/02-link.t
+README
 SIGNATURE    Added here by Module::Build

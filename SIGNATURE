@@ -14,29 +14,30 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 089bcbd92119c2f2f04622a63c710f886f89937d Build.PL
-SHA1 2bc831f6a93f44593cab73d98ae47b837e37b3e3 Changes
+SHA1 f5bcee6aa53e2dca1a794853a5f0d2f72eb792c8 Build.PL
+SHA1 55e093433930acb5b3f709ec79f39c570351ffb2 Changes
 SHA1 c97a41c305bae68328a71523bedd89351335a9a4 INSTALL
-SHA1 d96bf873e3c20111407747e2178a650b362c692f MANIFEST
-SHA1 2cdcce41d9875879ab8cb8362bead499a200dc2d META.yml
-SHA1 c5bbe42245223edc96e10e4889fe2c6e1078c31b Makefile.PL
+SHA1 4816eea03cc85bc7de49b62b91dfaee4371e1c9d MANIFEST
+SHA1 df4ca1023cd249725c4a8e24c1fbf6e00da7079f META.yml
+SHA1 646774252afb49925bc31286ff11b9a0cb0c4d2b Makefile.PL
+SHA1 d913fe9d22af923688f884f8ef01f9dc99ac8913 README
 SHA1 e5aabb51bec8883695fb78a9d717266f1c0405d6 bleadcheck.pl
-SHA1 6ad17b03d50ba92da738c59f8e665a6b4744fc4d lib/ExtUtils/CBuilder.pm
-SHA1 28c64df88cebb8d0beeec27b71ab6de570ff9c4b lib/ExtUtils/CBuilder/Base.pm
-SHA1 e161a38c83a69a5dc016a57f9f3ecb436118dd67 lib/ExtUtils/CBuilder/Platform/Unix.pm
-SHA1 260c805b814cfa9c6d1f33f6b521c64e82ff100d lib/ExtUtils/CBuilder/Platform/VMS.pm
-SHA1 653c1d825581b572014d02d0a8da7cfaa4ef5e2f lib/ExtUtils/CBuilder/Platform/Windows.pm
-SHA1 c5099c68d2f590174cefe8e4360814653b8b1cfd lib/ExtUtils/CBuilder/Platform/aix.pm
-SHA1 cb297afe65164898ecb54aaa849b84fe60213a29 lib/ExtUtils/CBuilder/Platform/cygwin.pm
-SHA1 4af5e596dbdcd362737117ee5b70d1b956e437c1 lib/ExtUtils/CBuilder/Platform/darwin.pm
-SHA1 fd0f47f8edb8a3d94e862e90fd067f1e357b98c9 lib/ExtUtils/CBuilder/Platform/dec_osf.pm
-SHA1 8f0ab2acbfd2893420f9c7e5a112f900a1285544 lib/ExtUtils/CBuilder/Platform/os2.pm
+SHA1 7dcefe73d153d519f314be63e66703b363c3a4f0 lib/ExtUtils/CBuilder.pm
+SHA1 5bde6e933f2f83b8d48145ddbc7c8ea29f97024f lib/ExtUtils/CBuilder/Base.pm
+SHA1 b236f84ec9dd89188677501f1870f6308b95169d lib/ExtUtils/CBuilder/Platform/Unix.pm
+SHA1 a3e96f5b1873b2bac36a00ef8e98118294d397a5 lib/ExtUtils/CBuilder/Platform/VMS.pm
+SHA1 d10c88c9981992573f24d4ac7fa02b7ad51bb361 lib/ExtUtils/CBuilder/Platform/Windows.pm
+SHA1 871c59d445a743c87f91bf19d928c7fb741b4fa8 lib/ExtUtils/CBuilder/Platform/aix.pm
+SHA1 d66e30ffbee28b0f2e165dbf8d35a70c2352453a lib/ExtUtils/CBuilder/Platform/cygwin.pm
+SHA1 e13130ac1f59fd260790f6397dc2f631b268e653 lib/ExtUtils/CBuilder/Platform/darwin.pm
+SHA1 87e948759712a4999fed4d122a44cbf16989334e lib/ExtUtils/CBuilder/Platform/dec_osf.pm
+SHA1 96768a6e444dcd9310999eddd020320c52b78cc0 lib/ExtUtils/CBuilder/Platform/os2.pm
 SHA1 2142417eaf970b017a49a8259bc7f9498e316d80 t/01-basic.t
 SHA1 66b84847e912d8540d2bb0a68bde775bc55cec12 t/02-link.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.5 (Darwin)
 
-iD8DBQFGR2bggrvMBLfvlHYRAs43AJ4jxR4gna6XLl3TyNNOOwzzWNRHhgCgzkHs
-dcblEqg2SdH6zu7KqzDMDak=
-=S/OV
+iD8DBQFHJxlsgrvMBLfvlHYRAnh9AJ9PXftDwoAiJ/zSQ2yUtMRfVAMT9ACeM/K2
+DFA702DaxeGYMCVfFzfj4xQ=
+=LnQA
 -----END PGP SIGNATURE-----
