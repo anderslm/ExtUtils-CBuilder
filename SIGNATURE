@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 02e7ad17fe379fc83468a406166d6ba2b8d3f53f Build.PL
+SHA1 33cbce70c4c9db03632b4078c6f8b7e776499cb4 Changes
+SHA1 c97a41c305bae68328a71523bedd89351335a9a4 INSTALL
+SHA1 becc9f61fee3cde15d42c407873dc6e5b7881224 MANIFEST
+SHA1 faf3bc71fbeccac34e0bda1672e6ba28d3592645 META.yml
+SHA1 7949eb1af53c44ee6dbf2146d5c151532fbe38b1 Makefile.PL
+SHA1 6fad76aeda501e43fd8e39eb6852ed22dc85af3b README
+SHA1 9395ac72e204d05e6512d087e53a00ef351ad1a9 lib/ExtUtils/CBuilder.pm
+SHA1 af7d559098fd4b6f4c2fd12bc976d74e0628d3ec lib/ExtUtils/CBuilder/Base.pm
+SHA1 3fa2164127546b454b9754f040336c291da91c49 lib/ExtUtils/CBuilder/Platform/Unix.pm
+SHA1 6870667e4c76765ffc96ae33ae975d88c3aab3a6 lib/ExtUtils/CBuilder/Platform/VMS.pm
+SHA1 27d49f41c1f87888dabbefbaa3ded66cea2c8db9 lib/ExtUtils/CBuilder/Platform/Windows.pm
+SHA1 47872dc11dea5d22a72331d456eaabc630200835 lib/ExtUtils/CBuilder/Platform/aix.pm
+SHA1 8f7292206894716882fd892eb954afdad7057c1a lib/ExtUtils/CBuilder/Platform/cygwin.pm
+SHA1 a66842173fd8bd76062e8a19e39b8c4eacb4ee04 lib/ExtUtils/CBuilder/Platform/darwin.pm
+SHA1 b85155e44c1d38fcd2e9bb3dc7c77acb5b6c3014 lib/ExtUtils/CBuilder/Platform/dec_osf.pm
+SHA1 8e3ecba87017900c5db25213b0360330513608ff lib/ExtUtils/CBuilder/Platform/os2.pm
+SHA1 19c1028d251213819fb0ac7ef9634530a40fd9ff t/00-have-compiler.t
+SHA1 6b2805327416814ac1288e6ce3de69f24cb27353 t/01-basic.t
+SHA1 3345f6c4e0cee08c5a118595d8f1d7c85726b6b8 t/02-link.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkqZRFYACgkQKeygAqLMQmMvsACgg9MJw6PxI3rigoKdeuX+if1o
+L9QAmQE0Dvbo5u92wKnf4DgdPlqc7xpr
+=k/Um
+-----END PGP SIGNATURE-----
