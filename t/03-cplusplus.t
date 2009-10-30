@@ -19,22 +19,22 @@ my ($source_file, $object_file, $lib_file);
 my $b = ExtUtils::CBuilder->new(quiet => $quiet);
 
 # test plan
-if ( ! $b->have_compiler ) {
+if ( ! $b->have_cplusplus ) {
   plan skip_all => "no compiler available for testing";
 }
 else {
-  plan tests => 10;
+  plan tests => 7;
 }
 
 ok $b, "created EU::CB object";
 
-ok $b->have_compiler, "have_compiler";
+ok $b->have_cplusplus, "have_cplusplus";
 
-$source_file = File::Spec->catfile('t', 'compilet.c');
+$source_file = File::Spec->catfile('t', 'compilet.cc');
 {
   local *FH;
   open FH, "> $source_file" or die "Can't create $source_file: $!";
-  print FH "int boot_compilet(void) { return 1; }\n";
+  print FH "class Bogus { public: int boot_compilet() { return 1; } };\n";
   close FH;
 }
 ok -e $source_file, "source file '$source_file' created";
@@ -42,7 +42,7 @@ ok -e $source_file, "source file '$source_file' created";
 $object_file = $b->object_file($source_file);
 ok 1;
 
-is $object_file, $b->compile(source => $source_file);
+is $object_file, $b->compile(source => $source_file, 'C++' => 1);
 
 $lib_file = $b->lib_file($object_file);
 ok 1;
@@ -62,11 +62,3 @@ if ($^O eq 'VMS') {
    1 while unlink 'COMPILET.OPT';
 }
 
-my @words = $b->split_like_shell(' foo bar');
-
-SKIP: {
-  skip "MSWindows", 3 if $^O =~ m/MSWin/;
-  is( @words, 2 );
-  is( $words[0], 'foo' );
-  is( $words[1], 'bar' );
-}
